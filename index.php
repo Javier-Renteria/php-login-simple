@@ -27,6 +27,12 @@
   </head>
   <body>
     <?php require 'partials/header.php' ?>
+<section>
+  <button class="reply">Reply</button>
+  <button class="reply-all">Reply to all</button>
+  <button class="fwd">Forward</button>
+  <button class="del">Delete</button>
+</section>
 
     <?php if(!empty($user)): ?>
       <br> Welcome. <?= $user['email']; ?>
